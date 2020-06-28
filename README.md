@@ -31,4 +31,4 @@
 - CI/CDを実施したいリポジトリ直下の`.github/workflows/`以下にymlを置く
 - ymlがpushされた瞬間からCI/CDが動き出す
 - 実行結果はリポジトリのActionsタブから確認可能
-    - 本リポジトリだと, masterにpushされるとActionsタブのRun以下に`Hello, world!`が表示される
+    - 本リポジトリだと, masterにpushされるとActionsタブの各commitの下に`Hello, world!`が表示される
