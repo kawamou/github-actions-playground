@@ -1,4 +1,4 @@
-# github-actions-sample!
+# github-actions-sample
 
 ### 概要
 - Github同梱のCI/CDツール
@@ -31,4 +31,4 @@
 - CI/CDを実施したいリポジトリ直下の`.github/workflows/`以下にymlを置く
 - ymlがpushされた瞬間からCI/CDが動き出す
 - 実行結果はリポジトリのActionsタブから確認可能
-    - 本リポジトリだと, masterにpushされると`Actions > All workflows > commit名 > build >  Run a one-line script`に`Hello, world!`が表示される
+    - 本リポジトリだと, masterにpushされるとActionsタブのRun以下に`Hello, world!`が表示される
